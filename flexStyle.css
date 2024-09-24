@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    
+    
+    }
+    
+    
+    .box > div {
+        background-color: #a1f1f1;
+        text-align: center;
+        margin: 2%;
+        padding: 2%;
+    
+    }
+    
+    @media only screen and (max-width: 800px){
+            body{background-color: green};
+    
+            .box{
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+    
+    
+            }
+    
+    
+    
+    
+    }
+    
+    
